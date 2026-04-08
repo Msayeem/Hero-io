@@ -2,7 +2,7 @@ import React, { Suspense, use } from 'react';
 import AppsData from './AppsData';
 import { Link } from 'react-router';
 
-let fetch1=fetch('/data.json')
+let fetch1=fetch(`${import.meta.env.BASE_URL}data.json`)
 .then(x=>x.json());
 
 const TrendingApps = () => {

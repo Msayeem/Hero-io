@@ -2,7 +2,7 @@ import React, { use, useContext } from 'react';
 import { Legend, Pie, PieChart, Tooltip } from 'recharts';
 import { AppContext } from './Context';
 
-let fetch1=fetch('/data.json')
+let fetch1=fetch(`${import.meta.env.BASE_URL}data.json`)
 .then(x=>x.json());
 
 const Dashboard = () => {

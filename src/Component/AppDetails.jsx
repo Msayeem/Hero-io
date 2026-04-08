@@ -3,7 +3,7 @@ import { data, useParams } from 'react-router';
 import { AppContext } from './Context';
 import { toast } from 'react-toastify';
 
-let fetch1=fetch('/data.json')
+let fetch1=fetch(`${import.meta.env.BASE_URL}data.json`)
 .then(x=>x.json());
 
 const AppDetails = () => {
