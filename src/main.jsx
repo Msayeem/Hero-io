@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import { createHashRouter } from "react-router";
 import { createBrowserRouter, Link } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from './Component/Root.jsx';
@@ -13,7 +14,7 @@ import AppDetails from './Component/AppDetails.jsx';
 import Context from './Component/Context.jsx';
 import { ToastContainer } from 'react-toastify';
 
-const router=createBrowserRouter([
+const router=createHashRouter([
   {
     path:'/',
     Component:Root, 
