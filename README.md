@@ -6,7 +6,7 @@ Project Description:
 
 Hero-io is a fast and stylish website built with React and Vite. It uses Tailwind CSS to make sure everything looks great on both phones and computers. The project is focused on being easy to use, clean, and modern.
 
-Technologies Used:
+🌐 Technologies Used:
 
 • React.js
 
@@ -20,7 +20,7 @@ Technologies Used:
 
 • JSON (for product data)
 
-Key Features:
+🚀 Key Features:
 
 1. Visual Data Tracking (Pie Chart): The app includes an interactive pie chart that gives you a quick visual summary of your installed versus uninstalled applications, making data easy to understand at a glance.
 
@@ -28,7 +28,7 @@ Key Features:
 
 3. Smooth User Experience: Built as a Single Page Application (SPA), the site allows you to navigate through different sections instantly without annoying page reloads or lag.
 
-Installation & Local Setup:
+🛠️ Installation & Local Setup:
 
 1. Clone the Repository
 
