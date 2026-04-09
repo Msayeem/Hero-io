@@ -1,16 +1,49 @@
-# React + Vite
+Project Name: Hero-io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live link: https://msayeem.github.io/Hero-io/#/
 
-Currently, two official plugins are available:
+Project Description:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Hero-io is a fast and stylish website built with React and Vite. It uses Tailwind CSS to make sure everything looks great on both phones and computers. The project is focused on being easy to use, clean, and modern.
 
-## React Compiler
+Technologies Used:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+• React.js
 
-## Expanding the ESLint configuration
+• JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+• React router
+
+• TailWind CSS
+
+• React-Toastify (NPM Package)
+
+• JSON (for product data)
+
+Key Features:
+
+1. Visual Data Tracking (Pie Chart): The app includes an interactive pie chart that gives you a quick visual summary of your installed versus uninstalled applications, making data easy to understand at a glance.
+
+2. Fully Responsive Design: Using Tailwind CSS, the site is built with a "mobile-first" approach, meaning it looks and works great whether you are using a tiny phone screen or a large monitor.
+
+3. Smooth User Experience: Built as a Single Page Application (SPA), the site allows you to navigate through different sections instantly without annoying page reloads or lag.
+
+Installation & Local Setup:
+
+1. Clone the Repository
+
+https://github.com/Msayeem/Hero-io.git
+
+2. Navigate to the Folder:
+
+cd Hero-io
+
+3. Install Dependencies:
+
+npm install
+
+4. Start the Development Server:
+
+npm run dev
+
+Once started, open the local link provided in your terminal (usually http://localhost:5173) to view the app.
