@@ -10,13 +10,13 @@ Hero-io is a single-page application that gives users a clean, intuitive interfa
 
 ## Features
 
-**Visual Data Tracking:**
+**1. Visual Data Tracking:**
 An interactive pie chart provides an at-a-glance summary of installed vs. uninstalled applications, turning raw data into something immediately understandable.
 
-**Single Page Application:**
+**2. Single Page Application:**
 Powered by React Router, navigation between sections is instant — no page reloads, no lag. The experience feels fluid and native throughout.
 
-**Fully Responsive Design:**
+**3. Fully Responsive Design:**
 Built mobile-first with Tailwind CSS, the layout scales cleanly from small phone screens to large desktop monitors without compromising usability.
 
 ---
